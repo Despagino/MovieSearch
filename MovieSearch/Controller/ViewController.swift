@@ -1,4 +1,4 @@
-//
+    //
 //  ViewController.swift
 //  MovieSearch
 //
@@ -7,13 +7,35 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
+    
+    // MARK: - Properties
+    @IBOutlet weak var searchTextField: UITextField!
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+     
+        tableView.delegate = self
+        tableView.dataSource = self
+        searchTextField.delegate = self
+        
     }
 
 
+    @IBAction func searchButtonClicked(_ sender: UIButton) {
+    }
+    
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
+    }
+    
+    
+    
 }
 
