@@ -13,6 +13,8 @@
 		D3B3D8F027DBB0010079144C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B3D8EE27DBB0010079144C /* Main.storyboard */; };
 		D3B3D8F227DBB0030079144C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B3D8F127DBB0030079144C /* Assets.xcassets */; };
 		D3B3D8F527DBB0030079144C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B3D8F327DBB0030079144C /* LaunchScreen.storyboard */; };
+		D3B3D90227DBDEBD0079144C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B3D90127DBDEBD0079144C /* Movie.swift */; };
+		D3B3D90427DBDECE0079144C /* MovieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B3D90327DBDECE0079144C /* MovieManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D3B3D8F127DBB0030079144C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3B3D8F427DBB0030079144C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3B3D8F627DBB0030079144C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3B3D90127DBDEBD0079144C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		D3B3D90327DBDECE0079144C /* MovieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 		D3B3D8FD27DBB0300079144C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D3B3D90127DBDEBD0079144C /* Movie.swift */,
+				D3B3D90327DBDECE0079144C /* MovieManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,6 +178,8 @@
 			files = (
 				D3B3D8ED27DBB0010079144C /* ViewController.swift in Sources */,
 				D3B3D8E927DBB0010079144C /* AppDelegate.swift in Sources */,
+				D3B3D90427DBDECE0079144C /* MovieManager.swift in Sources */,
+				D3B3D90227DBDEBD0079144C /* Movie.swift in Sources */,
 				D3B3D8EB27DBB0010079144C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,7 +331,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J9FG8B64JQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MovieSearch/Info.plist;
+				INFOPLIST_FILE = MovieSearch/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -351,7 +359,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J9FG8B64JQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MovieSearch/Info.plist;
+				INFOPLIST_FILE = MovieSearch/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
