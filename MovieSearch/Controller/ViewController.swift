@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
 
@@ -88,8 +89,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell
     }
     
-    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
-        return UITableView.automaticDimension
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let url = "https://www.themoviedb.org/movie/\(movies[indexPath.row].id)"
+        let vc = SFSafariViewController(url: URL(string: url)!)
+        present(vc, animated: true)
     }
     
 }
@@ -104,5 +107,5 @@ struct Movie: Codable {
     let overview: String
     let vote_average: Float
     let poster_path: String
-    
+    let id: Int
 }
