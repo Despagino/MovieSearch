@@ -39,10 +39,9 @@ class MovieTableViewCell: UITableViewCell {
         self.movieTitle.text = model.original_title
         self.movieRating?.text = String(model.vote_average)
         self.movieDescription.text = model.overview
-        let url = "https://image.tmdb.org/t/p/w500/\(model.poster_path!)"
+        let url = "https://image.tmdb.org/t/p/w500/\(String(describing: model.poster_path))"
         if let data = try? Data(contentsOf: URL(string: url)!) {
             self.moviePoster.image = UIImage(data: data)
         }
-        
     }
 }

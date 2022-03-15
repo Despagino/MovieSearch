@@ -103,6 +103,6 @@ struct Movie: Codable {
     let original_title: String
     let overview: String
     let vote_average: Float
-    let poster_path: String?
+    let poster_path: String
     
 }
