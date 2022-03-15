@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "35E26CDB-7821-4E72-80C5-EBB9AC3A6640"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9B73B14-A257-4A0B-8B91-07CCDFED591D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSearch/Model/MovieManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "MovieManager"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "D9B73B14-A257-4A0B-8B91-07CCDFED591D - 7aa8525a977efa8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieSearch.MovieManager.init(movies: Swift.Array&lt;Swift.String&gt;) -&gt; MovieSearch.MovieManager"
+                  moduleName = "MovieSearch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ginotasis/Desktop/iOS%20Development/MovieSearch/MovieSearch/Model/MovieManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "D9B73B14-A257-4A0B-8B91-07CCDFED591D - 1c7292c6228aac11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieSearch.MovieManager.init() -&gt; MovieSearch.MovieManager"
+                  moduleName = "MovieSearch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ginotasis/Desktop/iOS%20Development/MovieSearch/MovieSearch/Model/MovieManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

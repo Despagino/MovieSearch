@@ -35,7 +35,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="gray" image="magnifyingglass" catalog="system"/>
                                                         <connections>
-                                                            <action selector="searchButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kz4-g3-cxp"/>
+                                                            <action selector="searchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pOz-qA-q2e"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -74,8 +74,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="searchTextField" destination="2Yy-X1-Tdo" id="E5f-cs-FDa"/>
-                        <outlet property="tableView" destination="jGS-ae-w8j" id="3Ua-BX-NKM"/>
+                        <outlet property="field" destination="2Yy-X1-Tdo" id="pxQ-H6-JvB"/>
+                        <outlet property="table" destination="jGS-ae-w8j" id="G8o-cN-YUo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
